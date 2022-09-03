@@ -1,5 +1,11 @@
 import phonenumbers
+from phonenumbers import geocoder
 
-telefone = "+556536456279"
-telefone_ajustado = phonenumbers.parse(telefone)
-print(telefone_ajustado)
+telephone = input("Enter phone number: ")
+
+telephone_adjusted = phonenumbers.parse(telephone)
+print(telephone_adjusted)
+
+#finding phonelocation
+local = geocoder.description_for_number(telephone_adjusted, "en")
+print("This number is from: " + local)
