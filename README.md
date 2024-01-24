@@ -1,5 +1,5 @@
 # Phone Number Location Finder
-This script was created during the study of the "hashtag treinamentos" course offered by Hashtag Treinamentos. For any specific details related to the course content or use cases, please refer to the course materials or instructor guidance.
+This script was created during the study of Python course offered by Hashtag Treinamentos. For any specific details related to the course content or use cases, please refer to the course materials or instructor guidance.
 
 # Requirements
 - Python
